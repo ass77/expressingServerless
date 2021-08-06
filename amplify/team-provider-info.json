@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-second-dev-94504-authRole",
+      "UnauthRoleArn": "arn:aws:iam::839259422272:role/amplify-second-dev-94504-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::839259422272:role/amplify-second-dev-94504-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-second-dev-94504-deployment",
+      "UnauthRoleName": "amplify-second-dev-94504-unauthRole",
+      "StackName": "amplify-second-dev-94504",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:839259422272:stack/amplify-second-dev-94504/f27b0bf0-f657-11eb-b7e1-06066853c14c",
+      "AmplifyAppId": "djppkpkbolbn8"
+    },
+    "categories": {
+      "function": {
+        "secondFunctionOne": {
+          "deploymentBucketName": "amplify-second-dev-94504-deployment",
+          "s3Key": "amplify-builds/secondFunctionOne-32757a41426f5a6e312f-build.zip"
+        }
+      }
+    }
+  }
+}

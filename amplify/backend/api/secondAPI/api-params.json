@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/item",
+      "lambdaFunction": "secondFunctionOne",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/item"
+    }
+  ],
+  "resourceName": "secondAPI",
+  "apiName": "secondAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "secondFunctionOne"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-second-dev-94504-authRole",
+    "unAuthRoleName": "amplify-second-dev-94504-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "secondFunctionOne",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
